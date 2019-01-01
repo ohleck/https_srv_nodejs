@@ -31,5 +31,5 @@ app.use((req, res) => {
 	console.log(req.headers);
 	console.log(req.url);
 	console.log('-------------------------------------------------------------------------');
-	res.send('HTTPS test server SSL/TLS');
+	res.send('HTTPS test server');
 });
